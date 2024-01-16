@@ -26,6 +26,7 @@ input.onPinTouchEvent(TouchPin.P3, input.buttonEventDown(), function () {
     radio.sendString(funkText)
     alphabetKey = 0
     basic.showString("" + (alphabet[alphabetKey]))
+    funkText = ""
 })
 let funkText = ""
 let alphabetKey = 0
